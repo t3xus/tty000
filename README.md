@@ -6,9 +6,11 @@ Free. MIT License. Serial workbench in the browser.
 
 ## Install
 
+The package name is `tty000`. pip and npm pull it from tty000.com. Homebrew taps t3xus/tty000.
+
 ```bash
 pip3 install tty000 --extra-index-url https://tty000.com/simple/
-npm install -g https://tty000.com/dist/tty000-1.2.1.tgz
+npm install -g tty000 --registry https://tty000.com/npm/
 brew install t3xus/tty000/tty000
 ```
 

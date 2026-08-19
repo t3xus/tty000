@@ -1,11 +1,21 @@
 {
   "name": "tty000",
   "version": "1.2.1",
-  "description": "Browser TTY workbench and local USB serial helper",
+  "description": "Browser TTY workbench and local USB serial helper. Run tty000 --helper and open http://127.0.0.1:7682/",
   "license": "MIT",
   "homepage": "https://tty000.com/",
-  "repository": "https://github.com/t3xus/tty000",
+  "author": "James Gooch",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t3xus/tty000.git"
+  },
+  "bugs": {
+    "url": "https://github.com/t3xus/tty000/issues"
+  },
   "bin": {
     "tty000": "bin/tty000.js"
+  },
+  "scripts": {
+    "start": "node bin/tty000.js --helper"
   }
 }
